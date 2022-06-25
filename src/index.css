@@ -6,3 +6,60 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.header {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem 1rem 5rem;
+}
+.header--img {
+  width: 80px;
+}
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header--title {
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+}
+.header--text {
+  color: white;
+  font-size: 1.2rem;
+}
+form {
+  margin: 5rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.meme--input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.meme--input > input {
+  padding-left: 1rem;
+  width: 40%;
+  height: 60px;
+  font-size: 1.5rem;
+  color: rgb(39, 39, 39);
+  background-color: rgb(226, 226, 226);
+  border-style: none;
+  border-radius: 30px;
+}
+.meme--button {
+  width: 100%;
+  font-size: 1.5rem;
+  height: 60px;
+  border-style: none;
+  border-radius: 30px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  cursor: pointer;
+}
