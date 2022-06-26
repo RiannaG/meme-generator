@@ -30,7 +30,7 @@ body {
   color: white;
   font-size: 1.2rem;
 }
-form {
+.meme--container {
   margin: 5rem;
   width: 80%;
   display: flex;
